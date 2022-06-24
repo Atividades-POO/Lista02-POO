@@ -46,3 +46,11 @@ f = Fatorial(5) # instancia a classe fatorial
 # 3.2 - chame os métodos da classe fatorial
 f.imprime() # imprime o fatorial de 5
 f.fatorial() # imprime o fatorial de 5
+
+
+#
+print("-" * 20)
+print()
+#####################################################
+
+
