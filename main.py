@@ -37,3 +37,12 @@ num.imprimePares() # soma os dois números
 print("-" * 20)
 print()
 #####################################################
+
+
+# 3 - importe o arquivo ex03.py e crie uma instância da classe fatorial
+from ex03 import Fatorial  # importa a classe fatorial
+# 3.1 - crie uma instância da classe fatorial
+f = Fatorial(5) # instancia a classe fatorial
+# 3.2 - chame os métodos da classe fatorial
+f.imprime() # imprime o fatorial de 5
+f.fatorial() # imprime o fatorial de 5
