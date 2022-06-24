@@ -26,7 +26,7 @@ class Calculadora: # classe calculadora
 
     def dividir(self, num1, num2):
         if num2 == 0: # se o segundo número for zero retorna erro
-            return "Não é possível dividir por zero" # retorna erro
+            return f"{num2} = 0, Não é possível dividir por zero" # retorna erro
         else: # se não for zero calcula o resultado
             self.resultado = num1 / num2 # calcula o resultado da divisão de num1 por num2
             self.lista.append(self.resultado) # adiciona o resultado na lista de resultados
