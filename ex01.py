@@ -12,17 +12,17 @@ class Calculadora: # classe calculadora
     def somar(self, num1, num2): # método de instância (método de classe)
         self.resultado = num1 + num2  # calcula o resultado da soma
         self.lista.append(self.resultado) # adiciona o resultado na lista de resultados
-        return self.resultado  # retorna o resultado
+        return f"{num1} + {num2} = {self.resultado}"  # retorna o resultado
 
     def subtrair(self, num1, num2): # método de instância (método de classe)
         self.resultado = num1 - num2  # calcula o resultado da subtração
         self.lista.append(self.resultado) # adiciona o resultado na lista de resultados
-        return self.resultado # retorna o resultado
+        return f"{num1} - {num2} = {self.resultado}" # retorna o resultado
 
     def multiplicar(self, num1, num2):
         self.resultado = num1 * num2 # calcula o resultado da multiplicação
         self.lista.append(self.resultado) # adiciona o resultado na lista de resultados
-        return self.resultado # retorna o resultado
+        return f"{num1} * {num2} = {self.resultado}" # retorna o resultado
 
     def dividir(self, num1, num2):
         if num2 == 0: # se o segundo número for zero retorna erro
@@ -30,12 +30,12 @@ class Calculadora: # classe calculadora
         else: # se não for zero calcula o resultado
             self.resultado = num1 / num2 # calcula o resultado da divisão de num1 por num2
             self.lista.append(self.resultado) # adiciona o resultado na lista de resultados
-            return self.resultado # retorna o resultado
+            return f"{num1} / {num2} = {self.resultado}" # retorna o resultado
 
     def potencia(self, num1, num2):
         self.resultado = num1 ** num2 # calcula o resultado da potência de num1 elevado a num2
         self.lista.append(self.resultado) # adiciona o resultado na lista de resultados
-        return self.resultado # retorna o resultado (num1 elevado a num2)
+        return f"{num1} ^ {num2} = {self.resultado}" # retorna o resultado (num1 elevado a num2)
 
     def listarUltimosResultados(self):
         return self.lista # retorna a lista de resultados
