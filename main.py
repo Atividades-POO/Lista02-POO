@@ -1,5 +1,5 @@
 #
-# 1 - impporte o arquivo ex01.py e crie uma instância da classe calculadora
+# 1 - importe o arquivo ex01.py e crie uma instância da classe calculadora
 from ex01 import Calculadora  # importa a classe calculadora
 # 1.1 - crie uma instância da classe calculadora
 calc = Calculadora() # instancia a classe calculadora
@@ -16,5 +16,24 @@ print(calc.multiplicar(10, 20) + calc.dividir(10, 20)) # imprime 200 + 0.5
 print(calc.listarUltimosResultados()) # imprime a lista de resultados
 # 1.5 - calcule uma potência e uma divisão por zero
 print(calc.potencia(10, 2)) # imprime 100
-print(calc.dividir(10, 0)) # imprime  Erro: Não é possível dividir por zero
+print(calc.dividir(10, 0)) # imprime Erro: Não é possível dividir por zero
 
+
+#
+print("-" * 40)
+print()
+#####################################################
+
+
+# 2 - importe o arquivo ex02.py e crie uma instância da classe numero
+from ex02 import Numero  # importa a classe numero
+# 2.1 - crie uma instância da classe numero
+num = Numero(10, 20) # instancia a classe numero
+# 2.2 - chame os métodos da classe numero
+num.imprime() # imprime os dois números
+num.imprimePares() # soma os dois números
+
+#
+print("-" * 20)
+print()
+#####################################################
