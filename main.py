@@ -53,4 +53,22 @@ print("-" * 20)
 print()
 #####################################################
 
+# 4 - importe o arquivo ex04.py e crie uma instância da classe PessoaIMC
+from ex04 import PessoaIMC  # importa a classe pessoaIMC
+# 4.1 - crie uma instância da classe PessoaIMC
+p1 = PessoaIMC("João", 80, 1.80) # instancia a classe pessoaIMC
+p2 = PessoaIMC("Maria", 70, 1.60) # instancia a classe pessoaIMC
+# 4.2 - chame os métodos da classe PessoaIMC
+print(f'a situação do {p1.nome} é de {p1.resultIMC()}') # imprime o IMC de João
+print(f'a situação do {p2.nome} é de {p2.resultIMC()}') # imprime o IMC de Maria
+
+
+
+#
+print("-" * 20)
+print()
+#####################################################
+
+
+
 
