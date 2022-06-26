@@ -1,3 +1,11 @@
+
+# Autores:
+# Michel Silva
+# Emanuel Frank
+# Carlos Eduardo
+# data: 26/06/2022
+#
+
 #
 # 5.	Você foi contratado para atualizar o código fonte do jogo PacMan. Após analisar o jogo,
 # você identificou que existem 5 classes no jogo (mapa, PacMan, fantasma, moedas e frutas que dão poderes ao PacMan)
