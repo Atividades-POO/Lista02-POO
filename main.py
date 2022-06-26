@@ -1,3 +1,12 @@
+
+# Autores:
+# Michel Silva
+# Emanuel Frank
+# Carlos Eduardo
+# data: 26/06/2022
+#
+#
+# data: 26/06/2022
 #
 # 1 - importe o arquivo ex01.py e crie uma instância da classe calculadora
 from ex01 import Calculadora  # importa a classe calculadora
