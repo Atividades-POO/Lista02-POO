@@ -1,3 +1,12 @@
+
+# Autores:
+# Michel Silva
+# Emanuel Frank
+# Carlos Eduardo
+# data: 26/06/2022
+#
+#
+# data: 26/06/2022
 #
 # 4.	Escreva (em python) uma classe PessoaIMC que contenha os atributos peso e altura, ambos do tipo float.
 # Crie os métodos de acesso para estes atributos. Crie o método calculaIMC() que retorna um valor do tipo float
