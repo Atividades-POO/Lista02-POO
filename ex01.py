@@ -1,3 +1,11 @@
+
+# Autores:
+# Michel Silva
+# Emanuel Frank
+# Carlos Eduardo
+# data: 26/06/2022
+#
+
 #
 # 1.	 Construa uma calculadora que seja uma classe. As operações que deve existir na
 # calculara são: Somar, subtrair, multiplicar, dividir (não pode ter divisão por zero),
