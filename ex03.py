@@ -1,4 +1,10 @@
 #
+# Autores:
+# michel silva
+#
+#
+# data: 26/06/2022
+#
 # 3.	construa uma classe que ao ser instanciada ela retorne o valor fatorial de um número
 # passado na sua inicialização.
 #
