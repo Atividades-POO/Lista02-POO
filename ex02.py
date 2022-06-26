@@ -1,4 +1,13 @@
 #
+# Autores:
+# Michel Silva
+# Emanuel Frank
+# Carlos Eduardo
+# data: 26/06/2022
+#
+#
+# data: 26/06/2022
+#
 # 2.	Construa uma classe que ao ser instanciada ela retorne os números pares entre dois valores,
 # passados na inicialização, incluindo-os.
 #
